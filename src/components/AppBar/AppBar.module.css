@@ -1,0 +1,7 @@
+.AppBar {
+  position: fixed;
+  width: 100%;
+  background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper.jpg') no-repeat center/cover fixed;
+  box-shadow: var(--primary-shadow);
+  z-index: 100;
+}

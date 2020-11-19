@@ -1,0 +1,49 @@
+.MenuBtn__container,
+.MenuBtn__container__active {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  transition: var(--primary-transition);
+}
+.MenuBtn {
+  width: 30px;
+  height: 3px;
+  background-color: var(--header-title-color);
+  border-radius: 1.5px;
+  transition: var(--primary-transition);
+}
+.MenuBtn::before,
+.MenuBtn::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: var(--header-title-color);
+  border-radius: 1.5px;
+  transition: var(--primary-transition);
+}
+.MenuBtn::before {
+  transform: translateY(-10px);
+}
+.MenuBtn::after {
+  transform: translateY(10px);
+}
+
+/* onClick */
+
+.MenuBtn__container__active .MenuBtn {
+  transform: translateX(-50px);
+  background: transparent;
+}
+.MenuBtn__container__active .MenuBtn::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.MenuBtn__container__active .MenuBtn::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}

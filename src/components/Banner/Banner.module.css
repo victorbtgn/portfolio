@@ -1,0 +1,32 @@
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background: linear-gradient(#91b0d49f, #0424499f), url('../../assets/img/banner.jpg') no-repeat center / cover;
+}
+.container {
+  text-align: center;
+  background-color: var(--dark-overlay);
+  padding: 1em;
+  border-radius: 3em;
+  box-shadow: var(--primary-shadow);
+}
+.title {
+  font: 700 2.5em 'Quicksand', sans-serif;
+  color: var(--header-title-color);
+  margin-bottom: 20px;
+  cursor: default;
+}
+.subTitle {
+  font: 700 1.5em 'Quicksand', sans-serif;
+  color: var(--header-title-color);
+  cursor: default;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 3em;
+    border-radius: 5em;
+  }
+}
