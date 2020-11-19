@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e9670e39.chunk.css",
+    "main.js": "/portfolio/static/js/main.ef08728a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ef08728a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6fee4835.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6fee4835.js.map",
+    "static/css/2.3d72dcb8.chunk.css": "/portfolio/static/css/2.3d72dcb8.chunk.css",
+    "static/js/2.66da77dd.chunk.js": "/portfolio/static/js/2.66da77dd.chunk.js",
+    "static/js/2.66da77dd.chunk.js.map": "/portfolio/static/js/2.66da77dd.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.2b0371e355c731e2a4a37502a15b0b84.js": "/portfolio/precache-manifest.2b0371e355c731e2a4a37502a15b0b84.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.3d72dcb8.chunk.css.map": "/portfolio/static/css/2.3d72dcb8.chunk.css.map",
+    "static/css/main.e9670e39.chunk.css.map": "/portfolio/static/css/main.e9670e39.chunk.css.map",
+    "static/js/2.66da77dd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.66da77dd.chunk.js.LICENSE.txt",
+    "static/media/Banner.module.css": "/portfolio/static/media/banner.919fc552.jpg",
+    "static/media/Footer.module.css": "/portfolio/static/media/footer.aaf13e8d.jpg",
+    "static/media/github.9b719cbd.svg": "/portfolio/static/media/github.9b719cbd.svg",
+    "static/media/linkedin.603d1c29.svg": "/portfolio/static/media/linkedin.603d1c29.svg",
+    "static/media/movie-app.png": "/portfolio/static/media/movie-app.01e6c65e.png",
+    "static/media/phonebook.png": "/portfolio/static/media/phonebook.f36d5c31.png",
+    "static/media/About.module.css": "/portfolio/static/media/photo.eac2ba9f.JPG",
+    "static/media/Projects.module.css": "/portfolio/static/media/projects.c9d3bb26.jpg",
+    "static/media/telegram.66960d6b.svg": "/portfolio/static/media/telegram.66960d6b.svg",
+    "static/media/AppBar.module.css": "/portfolio/static/media/wallpaper.17476405.jpg",
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.ab4f5451.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fee4835.js",
+    "static/css/2.3d72dcb8.chunk.css",
+    "static/js/2.66da77dd.chunk.js",
+    "static/css/main.e9670e39.chunk.css",
+    "static/js/main.ef08728a.chunk.js"
+  ]
+}
