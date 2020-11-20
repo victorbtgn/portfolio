@@ -7,7 +7,7 @@ import Banner from './components/Banner';
 import Projects from './components/Projects';
 import Footer from './components/Footer/Footer';
 
-import styles from './App.module.css';
+import styles from './assets/styles/App.module.css';
 
 const App = () => (
   <div className={styles.App}>

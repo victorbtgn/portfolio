@@ -1,6 +1,8 @@
 :root {
   /* Colors */
   --white: #fff;
+  --red: #f560608a;
+  --blue: #00146e;
   --primary-font-color: #333333;
   --dark-overlay: #090c1ac5;
   --header-title-color: #ffffffa2;
@@ -13,6 +15,7 @@
   --footer-linear-gradient: linear-gradient(#4465a3c0, #2451a5c0);
   /* transitions */
   --primary-transition: all 0.4s ease-in-out;
+  --transition-hover: 0.2s linear;
   /* Fonts */
   --font-title: 700 1.5em 'Lato', sans-serif;
   --primary-font: 400 1.2em 'Lato', sans-serif;

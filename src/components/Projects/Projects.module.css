@@ -3,17 +3,18 @@
   background: linear-gradient(#ffffff88, #588cec5e), url('../../assets/img/projects.jpg') no-repeat center / cover;
 }
 .list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   grid-gap: 20px;
   list-style: none;
   width: 80%;
+
   margin: 0 auto;
 }
 .list__item {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 260px;
   padding: 10px;
   border-radius: 20px;
   background-color: var(--list-item-bg);
@@ -93,7 +94,9 @@
 
 @media screen and (min-width: 1280px) {
   .list {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 20px;
+  }
+  .list__item {
+    max-width: 350px;
   }
 }

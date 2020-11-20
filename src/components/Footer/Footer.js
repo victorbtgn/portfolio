@@ -28,8 +28,8 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.contacts__data}>
-                    <a href="tel:+380637813676" className={styles.contacts__data__link}>+380637813676</a>
-                    <a href="mailto:victor.batigin@ukr.net" className={styles.contacts__data__link}>victor.batigin@ukr.net</a>
+                    <a href="tel:+380637813676" className={styles.contacts__data__phone} data-text="+38(063)7813676" >+38(063)7813676</a>
+                    <a href="mailto:victor.batigin@ukr.net" className={styles.contacts__data__email}>E-mail: victor.batigin@ukr.net</a>
                 </div>
             </div>
         </footer>
