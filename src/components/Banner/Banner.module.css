@@ -1,9 +1,14 @@
+.cleanBanner {
+  height: 120vh;
+  opacity: 0;
+}
 .Banner {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 120vh;
   background: linear-gradient(#91b0d49f, #0424499f), url('../../assets/img/banner.jpg') no-repeat center / cover;
+  transition: var(--primary-transition);
 }
 .container {
   text-align: center;

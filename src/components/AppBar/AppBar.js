@@ -3,10 +3,10 @@ import Title from '../Title';
 
 import styles from './AppBar.module.css';
 
-export default function AppBarView () {
+export default function AppBarView ({scroll}) {
   return (
   <header className={styles.AppBar}>
-    <Title />
+    <Title scroll={scroll} />
   </header>
   )
 };
