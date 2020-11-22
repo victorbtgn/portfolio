@@ -29,7 +29,6 @@ export default function Resume() {
 
             <h3 className={styles.title}>Certificate</h3>
             <div className={styles.certificate_container}>
-                <div className={styles.certificate}>
                     <ToggleContent
                         toggle={show => 
                             <img src={certificateImage} onClick={show} className={styles.img} alt="certificate" />
@@ -40,9 +39,7 @@ export default function Resume() {
                             </Modal>
                         )}
                     />
-                </div>
-
-                <div className={styles.certificate}>
+                    
                     <ToggleContent
                         toggle={show => 
                             <img src={appendixImage1} onClick={show} className={styles.img} alt="certificate" />
@@ -53,9 +50,7 @@ export default function Resume() {
                             </Modal>
                         )}
                     />
-                </div>
-                
-                <div className={styles.certificate}>
+                    
                     <ToggleContent
                         toggle={show =>
                             <img src={appendixImage2} onClick={show} className={styles.img} alt="certificate" />
@@ -66,7 +61,6 @@ export default function Resume() {
                             </Modal>
                         )}
                     />
-                </div>
             </div>
         </section>
     )

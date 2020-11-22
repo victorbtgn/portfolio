@@ -11,10 +11,6 @@
   grid-gap: 10px;
   margin: 0 auto 30px;
 }
-.certificate {
-  width: 30%;
-  transition: var(--transition-hover);
-}
 .img__summary {
   display: block;
   max-height: 300px;
@@ -25,7 +21,8 @@
   transition: var(--transition-hover);
 }
 .img {
-  width: 100%;
+  max-width: 30%;
+  max-height: 300px;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: var(--primary-shadow);
