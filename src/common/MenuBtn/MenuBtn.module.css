@@ -1,6 +1,7 @@
 .MenuBtn__container,
 .MenuBtn__container__active {
-  position: relative;
+  border: none;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,10 +9,10 @@
   height: 50px;
   cursor: pointer;
   outline: none;
-  border-radius: 50%;
   transition: var(--primary-transition);
 }
 .MenuBtn {
+  position: relative;
   width: 30px;
   height: 3px;
   background-color: var(--header-title-color);
@@ -22,6 +23,7 @@
 .MenuBtn::after {
   content: '';
   position: absolute;
+  left: 0;
   width: 30px;
   height: 3px;
   background-color: var(--header-title-color);

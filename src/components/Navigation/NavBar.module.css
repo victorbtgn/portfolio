@@ -1,0 +1,75 @@
+.NavBar {
+  animation: enter 0.5s;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 20px;
+  background-color: var(--dark-overlay);
+  z-index: -1;
+}
+.close__NavBar {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 20px;
+  background-color: var(--dark-overlay);
+  z-index: -1;
+  animation: leave 0.5s;
+}
+.link {
+  position: relative;
+  text-decoration: none;
+  font: var(--primary-font);
+  color: var(--header-title-color);
+  transition: var(--transition-hover);
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.link:hover,
+.link:focus {
+  color: var(--white);
+  transition: var(--transition-hover);
+}
+
+@media screen and (min-width: 768px) {
+  .NavBar {
+    position: static;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background: transparent;
+  }
+}
+
+@keyframes enter {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes leave {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}

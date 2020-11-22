@@ -71,7 +71,7 @@
   transform: scaleX(0);
   background-color: var(--header-title-color);
   margin-top: 5px;
-  transition: 0.2s linear;
+  transition: var(--transition-hover);
 }
 /* On hover link */
 .list__item:hover .link__container,
@@ -79,17 +79,17 @@
   background-color: var(--dark-overlay);
   border-radius: 20px;
   opacity: 1;
-  transition: 0.2s linear;
+  transition: var(--transition-hover);
 }
 .link:hover,
 .link:focus {
   color: var(--white);
-  transition: 0.2s linear;
+  transition: var(--transition-hover);
 }
 .link:hover::after,
 .link:focus::after {
   transform: scaleX(0.7);
-  transition: 0.2s linear;
+  transition: var(--transition-hover);
 }
 
 @media screen and (min-width: 1280px) {

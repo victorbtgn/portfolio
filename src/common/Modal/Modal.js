@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 
 import styles from './Modal.module.css';
@@ -6,35 +6,60 @@ import styles from './Modal.module.css';
 const modalRootRef = document.querySelector('#modal-root');
 
 export default function Modal({ children, onClose }) {
+    const [activeClass, setActiveClass] = useState(styles.Modal__overlay);
+    const [isClick, setIsClick] = useState(false);
 
+    const ligthCloseModal = useCallback(
+        () => {
+            setActiveClass(styles.close__modal)
+            const timer = setTimeout(closeModal, 500)
+            function closeModal () {
+                onClose();
+                clearTimeout(timer)
+            }
+        },
+        [onClose],
+    )
 
     useEffect(() => {
-            const onKeydownEscape = ({ code }) => {
-                if(code === 'Escape') onClose();
-            }
+        if(isClick) {
+            ligthCloseModal();
+        }
+    }, [ligthCloseModal, isClick])
+
+    useEffect(() => {
+        const onKeydownEscape = ({ code }) => {
+            if(code === 'Escape') {
+                ligthCloseModal();
+            };
+        }
             window.addEventListener('keydown', onKeydownEscape);
         return () => {
             window.removeEventListener('keydown', onKeydownEscape);
         }
-    }, [onClose]);
+    }, [ligthCloseModal]);
 
     useEffect(() => {
         const onPressOverlay = evt => {
-            if(evt.target.id === "modal") onClose()
+            evt.preventDefault()
+            if(evt.target.id === "modal") {
+                ligthCloseModal();
+            };
         }
         window.addEventListener('click', onPressOverlay);
     return () => {
         window.removeEventListener('click', onPressOverlay);
     }
-}, [onClose]);
+}, [ligthCloseModal]);
 
     return createPortal(
-                <div id="modal" className={styles.Modal__overlay}>
+                <div id="modal" className={activeClass}>
                     <div className={styles.Modal}>
                         {children}
-                        <button type="button" onClick={onClose} className={styles.closeBtn}></button>
+                        <button type="button" onClick={() => setIsClick(true)} className={styles.closeBtn}></button>
                     </div>
                 </div>,
                 modalRootRef
             )
 }
+

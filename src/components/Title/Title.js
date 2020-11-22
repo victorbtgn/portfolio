@@ -1,6 +1,7 @@
 import React from 'react';
 import { Transition } from 'react-spring/renderprops';
-import MenuBtn from '../../common/MenuBtn';
+import { bannerRoute } from '../../helpers/routes';
+import Navigation from '../Navigation/Navigation';
 
 import styles from './Title.module.css';
 
@@ -16,7 +17,7 @@ export default function Title ({scroll}) {
                   from={{ opacity: 0 }}
                   enter={{ opacity: 1 }}
                 >
-                  {item => props => <h1 style={props} className={styles.Logo}>{item}</h1>}
+                  {item => props => <a href={`#${bannerRoute}`} className={styles.logo__link}><h1 style={props} className={styles.Logo}>{item}</h1></a>}
                 </Transition>
                 <Transition
                   items={[""]}
@@ -25,7 +26,7 @@ export default function Title ({scroll}) {
                   from={{ opacity: 0 }}
                   enter={{ opacity: 1 }}
                 >
-                  {item => props => <div style={props}> <MenuBtn /> </div>}
+                  {item => props => <div style={props}> <Navigation /> </div>}
                 </Transition>
               </>
             ) : (

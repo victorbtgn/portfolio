@@ -1,9 +1,11 @@
 {
     "cSpell.ignoreWords": [
+        "anchor",
         "appbar",
         "appbar linear gradient",
         "batyhin",
         "bila",
+        "browserslist",
         "btgn",
         "composes",
         "gradient",
@@ -14,6 +16,9 @@
         "noopener",
         "noreferrer",
         "phonebook",
+        "react",
+        "react scrollable anchor",
+        "scrollable",
         "tserkva",
         "viber",
         "victor",

@@ -8,9 +8,14 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+import { configureAnchors  } from 'react-scrollable-anchor';
+
 import styles from './assets/styles/App.module.css';
 
 const App = () => {
+  // anchor configure
+  configureAnchors({ offset: -60, scrollDuration: 800, keepLastAnchorHash: false })
+
   const [scroll, setScroll] = useState(false)
 
   const handleScroll = () => { if(window.scrollY > 0) setScroll(true) };

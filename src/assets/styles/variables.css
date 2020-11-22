@@ -9,6 +9,7 @@
   --list-item-bg: #031027b7;
   /* Shadows */
   --header-title-shadow: 0 0 5px #3d3d3dd2;
+  --header-title-shadow-white: 0 0 5px #fff;
   --primary-shadow: 0px 1px 15px 5px #00162786;
   /* Linear-gradients */
   --appbar-linear-gradient: linear-gradient(#ffffff77, #93a2e49a);

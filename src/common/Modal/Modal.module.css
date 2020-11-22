@@ -1,4 +1,18 @@
 .Modal__overlay {
+  animation: enter 0.2s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+.close__modal {
+  animation: leave 0.2s;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,18 +23,23 @@
   justify-content: center;
   align-items: center;
   z-index: 200;
+  opacity: 0;
 }
 .Modal {
   position: relative;
   max-width: 90%;
-  height: 90vh;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .closeBtn {
   position: absolute;
-  right: 10%;
+  right: 20px;
+  top: 0;
   width: 40px;
   height: 40px;
-  background: transparent;
+  background: var(--dark-overlay);
   border: 1px solid var(--white);
   border-radius: 50%;
   cursor: pointer;
@@ -47,4 +66,25 @@
 }
 .closeBtn:hover::before {
   transform: rotate(225deg);
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes leave {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
 }

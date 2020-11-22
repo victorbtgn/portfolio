@@ -26,6 +26,17 @@
 }
 .Logo {
   composes: subTitle;
+  line-height: 1;
+  cursor: pointer;
+  transition: var(--transition-hover);
+}
+.Logo:hover {
+  text-shadow: var(--header-title-shadow-white);
+  color: var(--blue);
+  transition: var(--transition-hover);
+}
+.logo__link {
+  text-decoration: none;
 }
 
 ::-webkit-scrollbar {

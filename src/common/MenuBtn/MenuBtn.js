@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import NavBar from '../../components/Navigation/NavBar';
+
 import styles from './MenuBtn.module.css';
 
 export default function MenuBtn () {
@@ -6,15 +8,15 @@ export default function MenuBtn () {
 
     const handleChange = evt => {
         evt.preventDefault();
-
         setActiveClass(!activeClass);
     }
 
     return (
-        <div className={!activeClass ? styles.MenuBtn__container : styles.MenuBtn__container__active} onClick={handleChange}>
+        <>
+            <button type="button" onClick={handleChange} className={activeClass ? styles.MenuBtn__container__active : styles.MenuBtn__container}>
             <div className={styles.MenuBtn}></div>
-        </div>
+            </button>
+            {activeClass && <NavBar />}
+        </>
     )
 }
-
-
