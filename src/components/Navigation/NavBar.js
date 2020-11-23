@@ -9,11 +9,9 @@ import {
 
 import styles from './NavBar.module.css';
 
-export default function NavBar() {
-
-
+export default function NavBar({ isVisible, mobile }) {
     return (
-        <ul className={styles.NavBar}>
+        <ul className={mobile ? (isVisible ? styles.NavBar : styles.close__NavBar) : styles.NavBar}>
             <li className={styles.list__item}>
                 <a href={`#${aboutRoute}`} className={styles.link}>About me</a>
             </li>
@@ -30,5 +28,5 @@ export default function NavBar() {
                 <a href={`#${contactsRoute}`} className={styles.link}>Contacts</a>
             </li>
         </ul>
-    )
-}
+    );
+};

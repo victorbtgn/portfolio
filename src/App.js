@@ -9,8 +9,10 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 import { configureAnchors  } from 'react-scrollable-anchor';
+// import { Parallax } from 'react-parallax';
 
 import styles from './assets/styles/App.module.css';
+// import projectsImage from './assets/img/projects.jpg';
 
 const App = () => {
   // anchor configure
@@ -34,7 +36,13 @@ const App = () => {
     <MainLayout>
       <Banner scroll={scroll} />
       <About />
-      <Projects />
+      {/* <Parallax
+        bgImage={projectsImage}
+        bgImageAlt="world map"
+        strength={500}
+      > */}
+        <Projects />
+      {/* </Parallax> */}
       <Resume />
       <Footer />
     </MainLayout>

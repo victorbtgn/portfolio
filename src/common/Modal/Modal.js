@@ -12,11 +12,10 @@ export default function Modal({ children, onClose }) {
     const ligthCloseModal = useCallback(
         () => {
             setActiveClass(styles.close__modal)
-            const timer = setTimeout(closeModal, 500)
-            function closeModal () {
+            const timer = setTimeout(() => {
                 onClose();
                 clearTimeout(timer)
-            }
+            }, 500)
         },
         [onClose],
     )

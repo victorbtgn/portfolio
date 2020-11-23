@@ -1,6 +1,6 @@
 .Projects {
   padding: 50px 0;
-  background: linear-gradient(#ffffff88, #588cec5e), url('../../assets/img/projects.jpg') no-repeat center / cover;
+  /* background: linear-gradient(#ffffff88, #588cec5e), url('../../assets/img/projects.jpg') no-repeat center / cover; */
 }
 .list {
   display: flex;
@@ -8,7 +8,6 @@
   grid-gap: 20px;
   list-style: none;
   width: 80%;
-
   margin: 0 auto;
 }
 .list__item {
@@ -20,6 +19,7 @@
   background-color: var(--list-item-bg);
   text-align: center;
   margin: 0 auto;
+  box-shadow: var(--primary-shadow);
 }
 .img,
 .title,

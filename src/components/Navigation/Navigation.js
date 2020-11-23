@@ -4,8 +4,6 @@ import MenuBtn from '../../common/MenuBtn';
 import NavBar from './NavBar';
 
 export default function Navigation() {
-    
-
     return (
         <nav>
             <Media queries={{
@@ -13,7 +11,7 @@ export default function Navigation() {
             }}>
                 {matches => (
                     <>
-                        {matches.mobile ? <MenuBtn /> : <NavBar />}
+                        {matches.mobile ? <MenuBtn mobile={true} /> : <NavBar />}
                     </>
                 )}
             </Media>
