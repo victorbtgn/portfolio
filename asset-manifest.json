@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7d72824b.chunk.css",
-    "main.js": "/portfolio/static/js/main.1a71b834.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1a71b834.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c6d567c0.chunk.css",
+    "main.js": "/portfolio/static/js/main.461c5e80.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.461c5e80.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6fee4835.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6fee4835.js.map",
     "static/css/2.3d72dcb8.chunk.css": "/portfolio/static/css/2.3d72dcb8.chunk.css",
     "static/js/2.cd6a3b66.chunk.js": "/portfolio/static/js/2.cd6a3b66.chunk.js",
     "static/js/2.cd6a3b66.chunk.js.map": "/portfolio/static/js/2.cd6a3b66.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c2917bffabac7457ccfdd81dcc1c6acb.js": "/portfolio/precache-manifest.c2917bffabac7457ccfdd81dcc1c6acb.js",
+    "precache-manifest.fa77300a4e5d5d16094245041c7a958c.js": "/portfolio/precache-manifest.fa77300a4e5d5d16094245041c7a958c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3d72dcb8.chunk.css.map": "/portfolio/static/css/2.3d72dcb8.chunk.css.map",
-    "static/css/main.7d72824b.chunk.css.map": "/portfolio/static/css/main.7d72824b.chunk.css.map",
+    "static/css/main.c6d567c0.chunk.css.map": "/portfolio/static/css/main.c6d567c0.chunk.css.map",
     "static/js/2.cd6a3b66.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cd6a3b66.chunk.js.LICENSE.txt",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01.be478f5e.jpg",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.9d180c2f.jpg",
@@ -29,7 +29,7 @@
     "static/media/linkedin.603d1c29.svg": "/portfolio/static/media/linkedin.603d1c29.svg",
     "static/media/movie-app.jpg": "/portfolio/static/media/movie-app.2456d7a8.jpg",
     "static/media/phonebook.jpg": "/portfolio/static/media/phonebook.4674d5a9.jpg",
-    "static/media/About.module.css": "/portfolio/static/media/photo.20545a27.JPG",
+    "static/media/About.module.css": "/portfolio/static/media/photo.20545a27.jpg",
     "static/media/projects.jpg": "/portfolio/static/media/projects.1a154902.jpg",
     "static/media/projects@0,5x.jpg": "/portfolio/static/media/projects@0,5x.c6163a66.jpg",
     "static/media/projects@0,75x.jpg": "/portfolio/static/media/projects@0,75x.720db70c.jpg",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.6fee4835.js",
     "static/css/2.3d72dcb8.chunk.css",
     "static/js/2.cd6a3b66.chunk.js",
-    "static/css/main.7d72824b.chunk.css",
-    "static/js/main.1a71b834.chunk.js"
+    "static/css/main.c6d567c0.chunk.css",
+    "static/js/main.461c5e80.chunk.js"
   ]
 }
