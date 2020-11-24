@@ -9,10 +9,10 @@ import {
 
 import styles from './NavBar.module.css';
 
-export default function NavBar({ isVisible, mobile }) {
+export default function NavBar({ handleChange, isVisible, mobile }) {
     return (
         <>
-            <div className={mobile && styles.navbar__overlay}></div>
+            <div className={mobile && (isVisible ? styles.navbar__overlay : styles.navbar__overlay__close)} onClick={handleChange} ></div>
             <ul className={mobile ? (isVisible ? styles.NavBar : styles.close__NavBar) : styles.NavBar}>
                 <li className={styles.list__item}>
                     <a href={`#${aboutRoute}`} className={styles.link}>About me</a>

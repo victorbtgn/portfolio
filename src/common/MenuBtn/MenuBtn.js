@@ -25,7 +25,7 @@ export default function MenuBtn ({ mobile }) {
             <button type="button" onClick={handleChange} className={isVisible ? styles.MenuBtn__container__active : styles.MenuBtn__container}>
             <div className={styles.MenuBtn}></div>
             </button>
-            {activeClass && <NavBar isVisible={isVisible} mobile={mobile} />}
+            {activeClass && <NavBar handleChange={handleChange} isVisible={isVisible} mobile={mobile} />}
         </>
     )
 }

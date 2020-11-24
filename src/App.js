@@ -13,7 +13,6 @@ import { configureAnchors  } from 'react-scrollable-anchor';
 import styles from './assets/styles/App.module.css';
 
 const App = () => {
-  // anchor configure
   configureAnchors({ offset: -60, scrollDuration: 800, keepLastAnchorHash: false })
 
   const [scroll, setScroll] = useState(false)

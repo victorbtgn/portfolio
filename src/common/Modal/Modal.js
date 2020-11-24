@@ -38,19 +38,6 @@ export default function Modal({ children, onClose }) {
         }
     }, [ligthCloseModal]);
 
-    useEffect(() => {
-        const onPressOverlay = evt => {
-            evt.preventDefault()
-            if(evt.target.id === "modal") {
-                ligthCloseModal();
-            };
-        }
-        window.addEventListener('click', onPressOverlay);
-    return () => {
-        window.removeEventListener('click', onPressOverlay);
-    }
-}, [ligthCloseModal]);
-
     return createPortal(
                 <div id="modal" className={activeClass}>
                     <div className={styles.Modal}>
