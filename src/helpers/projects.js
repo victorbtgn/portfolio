@@ -1,7 +1,7 @@
-import weatherAppImage from '../assets/img/projects/weather-app.png';
-import phonebookImage from '../assets/img/projects/phonebook.png';
-import movieAppImage from '../assets/img/projects/movie-app.png';
-import imagesImage from '../assets/img/projects/images.png';
+import weatherAppImage from '../assets/img/projects/weather-app.jpg';
+import phonebookImage from '../assets/img/projects/phonebook.jpg';
+import movieAppImage from '../assets/img/projects/movie-app.jpg';
+import imagesImage from '../assets/img/projects/images.jpg';
 
 export default [
     {

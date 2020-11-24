@@ -3,9 +3,13 @@ import React from 'react';
 import ToggleContent from '../../common/ToggleContent';
 import Modal from '../../common/Modal';
 
+import certificateImageMin from '../../assets/img/resume/Viktor Batyhin_fs_6168_Certificate@0,25x.jpg';
+import appendixImage1Min from '../../assets/img/resume/Viktor Batyhin_fs_6168_Appendix_01@0,25x.jpg';
+import appendixImage2Min from '../../assets/img/resume/Viktor Batyhin_fs_6168_Appendix_02@0,25x.jpg';
 import certificateImage from '../../assets/img/resume/Viktor Batyhin_fs_6168_Certificate.jpg';
 import appendixImage1 from '../../assets/img/resume/Viktor Batyhin_fs_6168_Appendix_01.jpg';
 import appendixImage2 from '../../assets/img/resume/Viktor Batyhin_fs_6168_Appendix_02.jpg';
+import summaryImageMin from '../../assets/img/resume/summary@0,25x.jpg';
 import summaryImage from '../../assets/img/resume/summary.jpg';
 import summaryPDF from '../../assets/img/resume/summary.pdf';
 
@@ -23,7 +27,7 @@ export default function Resume() {
                 <h3 className={styles.title}>Resume</h3>
 
                 <div className={styles.summary__container}>
-                <img src={summaryImage} className={styles.img__summary} alt="summary" />
+                <img src={summaryImageMin} className={styles.img__summary} alt="summary" />
                 <div className={styles.summary__overlay}>
                     <ToggleContent
                         toggle={show => 
@@ -44,7 +48,7 @@ export default function Resume() {
                 <div className={styles.certificate_container}>
                         <ToggleContent
                             toggle={show =>
-                                    <img src={certificateImage} onClick={show} className={styles.img} alt="certificate" />
+                                    <img src={certificateImageMin} onClick={show} className={styles.img} alt="certificate" />
                             }
                             content={hide => (
                                 <Modal onClose={hide}>
@@ -55,7 +59,7 @@ export default function Resume() {
                         
                         <ToggleContent
                             toggle={show =>
-                                    <img src={appendixImage1} onClick={show} className={styles.img} alt="certificate" />
+                                    <img src={appendixImage1Min} onClick={show} className={styles.img} alt="certificate" />
                             }
                             content={hide => (
                                 <Modal onClose={hide}>
@@ -66,7 +70,7 @@ export default function Resume() {
                         
                         <ToggleContent
                             toggle={show =>
-                                    <img src={appendixImage2} onClick={show} className={styles.img} alt="certificate" />
+                                    <img src={appendixImage2Min} onClick={show} className={styles.img} alt="certificate" />
                             }
                             content={hide => (
                                 <Modal onClose={hide}>

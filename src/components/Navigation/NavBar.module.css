@@ -1,7 +1,16 @@
+.navbar__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #c2c6ff4f;
+  z-index: -2;
+}
 .NavBar {
   animation: enter 0.5s;
   list-style: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 200px;

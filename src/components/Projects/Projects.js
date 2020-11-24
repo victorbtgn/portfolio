@@ -7,18 +7,24 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { projectsRoute } from '../../helpers/routes';
 
 import { Parallax } from 'react-parallax';
-import projectsImage from '../../assets/img/projects.jpg';
+import projectsImageMobile from '../../assets/img/projects@0,5x.jpg';
+import projectsImageTablet from '../../assets/img/projects@0,75x.jpg';
+import projectsImageDesktop from '../../assets/img/projects.jpg';
+
+import { useWindowSize, chooseWallpaperSize } from '../../helpers/window-size';
 
 import styles from './Projects.module.css';
 
 export default function Projects() {
-    
+    const [ width ] = useWindowSize();
+    const bgWallpaper = chooseWallpaperSize(width, projectsImageMobile, projectsImageTablet, projectsImageDesktop)
 
     return (
         <Parallax
-        bgImage={projectsImage}
+        bgImage={bgWallpaper}
         bgImageAlt="world map"
         strength={500}
+        className={styles.projects__parallax}
         >
             <ScrollableAnchor id={projectsRoute}>
                 <section className={styles.Projects}>

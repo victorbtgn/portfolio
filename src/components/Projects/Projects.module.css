@@ -1,6 +1,9 @@
+.projects__parallax {
+  box-shadow: var(--primary-shadow);
+}
 .Projects {
   padding: 50px 0;
-  /* background: linear-gradient(#ffffff88, #588cec5e), url('../../assets/img/projects.jpg') no-repeat center / cover; */
+  background: var(--projects-linear-gradient);
 }
 .list {
   display: flex;

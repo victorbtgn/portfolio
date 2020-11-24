@@ -12,7 +12,6 @@
   transition: var(--primary-transition);
 }
 .MenuBtn {
-  position: relative;
   width: 30px;
   height: 3px;
   background-color: var(--header-title-color);
@@ -22,8 +21,7 @@
 .MenuBtn::before,
 .MenuBtn::after {
   content: '';
-  position: absolute;
-  left: 0;
+  display: block;
   width: 30px;
   height: 3px;
   background-color: var(--header-title-color);
@@ -34,7 +32,7 @@
   transform: translateY(-10px);
 }
 .MenuBtn::after {
-  transform: translateY(10px);
+  transform: translateY(7px);
 }
 
 /* onClick */
@@ -44,8 +42,8 @@
   background: transparent;
 }
 .MenuBtn__container__active .MenuBtn::before {
-  transform: rotate(45deg) translate(35px, -35px);
+  transform: rotate(45deg) translate(37px, -35px);
 }
 .MenuBtn__container__active .MenuBtn::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+  transform: rotate(-45deg) translate(37px, 35px);
 }

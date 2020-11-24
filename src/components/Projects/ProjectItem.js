@@ -12,5 +12,4 @@ export default function ProjectItem({ image, title, description, webSiteLink, co
                     <a href={codeLink} target="_blank" rel="noopener noreferrer" className={styles.link}>Code</a>
                 </div>
             </li>)
-}
-
+};

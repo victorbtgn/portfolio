@@ -1,5 +1,8 @@
+.footer__parallax {
+  box-shadow: var(--primary-shadow);
+}
 .Footer {
-  background: var(--footer-linear-gradient), url('../../assets/img/footer.jpg') no-repeat center / cover;
+  background: var(--footer-linear-gradient);
 }
 .title {
   text-align: center;

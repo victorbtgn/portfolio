@@ -3,12 +3,19 @@
   opacity: 0;
 }
 .Banner {
+  height: 100vh;
+  background: url('../../assets/img/banner@0\,5x.jpg') center / cover;
+  transition: var(--primary-transition);
+  box-shadow: var(--primary-shadow);
+  animation: moveImage 200s linear infinite;
+}
+.banner__bg {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
-  background: linear-gradient(#91b0d49f, #0424499f), url('../../assets/img/banner.jpg') no-repeat center / cover;
-  transition: var(--primary-transition);
+  background-color: var(--banner-overlay);
 }
 .container {
   text-align: center;
@@ -30,8 +37,23 @@
 }
 
 @media screen and (min-width: 768px) {
+  .Banner {
+    background: url('../../assets/img/banner@0\,75x.jpg') center / cover;
+  }
   .container {
     padding: 3em;
     border-radius: 5em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Banner {
+    background: url('../../assets/img/banner.jpg') center / cover;
+  }
+}
+
+@keyframes moveImage {
+  100% {
+    background-position: 0px -3000px;
   }
 }

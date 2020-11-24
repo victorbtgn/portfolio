@@ -1,7 +1,19 @@
 .AppBar {
   position: fixed;
   width: 100%;
-  background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper.jpg') no-repeat center/cover fixed;
+  background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper@0\,5x.jpg') no-repeat center/cover fixed;
   box-shadow: var(--primary-shadow);
   z-index: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .AppBar {
+    background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper@0\,75x.jpg');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .AppBar {
+    background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper.jpg');
+  }
 }
