@@ -12,7 +12,7 @@ import styles from './NavBar.module.css';
 export default function NavBar({ isVisible, mobile }) {
     return (
         <>
-            <div className={styles.navbar__overlay}></div>
+            <div className={mobile && styles.navbar__overlay}></div>
             <ul className={mobile ? (isVisible ? styles.NavBar : styles.close__NavBar) : styles.NavBar}>
                 <li className={styles.list__item}>
                     <a href={`#${aboutRoute}`} className={styles.link}>About me</a>
