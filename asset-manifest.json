@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e89c23b8.chunk.css",
-    "main.js": "/portfolio/static/js/main.929bb8d5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.929bb8d5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.119c4a75.chunk.css",
+    "main.js": "/portfolio/static/js/main.0c177bb4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0c177bb4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6fee4835.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6fee4835.js.map",
     "static/css/2.3d72dcb8.chunk.css": "/portfolio/static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.cd6a3b66.chunk.js": "/portfolio/static/js/2.cd6a3b66.chunk.js",
-    "static/js/2.cd6a3b66.chunk.js.map": "/portfolio/static/js/2.cd6a3b66.chunk.js.map",
+    "static/js/2.638ba017.chunk.js": "/portfolio/static/js/2.638ba017.chunk.js",
+    "static/js/2.638ba017.chunk.js.map": "/portfolio/static/js/2.638ba017.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b42c388239c7368715314ef2ae0ebfe9.js": "/portfolio/precache-manifest.b42c388239c7368715314ef2ae0ebfe9.js",
+    "precache-manifest.9fc1de358a795e310ee712a564b9baeb.js": "/portfolio/precache-manifest.9fc1de358a795e310ee712a564b9baeb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3d72dcb8.chunk.css.map": "/portfolio/static/css/2.3d72dcb8.chunk.css.map",
-    "static/css/main.e89c23b8.chunk.css.map": "/portfolio/static/css/main.e89c23b8.chunk.css.map",
-    "static/js/2.cd6a3b66.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cd6a3b66.chunk.js.LICENSE.txt",
+    "static/css/main.119c4a75.chunk.css.map": "/portfolio/static/css/main.119c4a75.chunk.css.map",
+    "static/js/2.638ba017.chunk.js.LICENSE.txt": "/portfolio/static/js/2.638ba017.chunk.js.LICENSE.txt",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01.be478f5e.jpg",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.9d180c2f.jpg",
     "static/media/Viktor Batyhin_fs_6168_Appendix_02.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_02.16233630.jpg",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.6fee4835.js",
     "static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.cd6a3b66.chunk.js",
-    "static/css/main.e89c23b8.chunk.css",
-    "static/js/main.929bb8d5.chunk.js"
+    "static/js/2.638ba017.chunk.js",
+    "static/css/main.119c4a75.chunk.css",
+    "static/js/main.0c177bb4.chunk.js"
   ]
 }
