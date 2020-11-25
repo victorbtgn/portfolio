@@ -5,6 +5,46 @@
   box-shadow: var(--primary-shadow);
   z-index: 100;
 }
+.pointer {
+  opacity: 0;
+  animation: enter-pointer 1.5s ease 2s forwards;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pointer__leave {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: leave-pointer 0.5s linear forwards;
+}
+.pointer::before,
+.pointer::after,
+.pointer__leave::before,
+.pointer__leave::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: var(--white);
+  border-radius: 1px;
+}
+.pointer::before,
+.pointer__leave::before {
+  transform: translate(4px, 19px) rotate(30deg);
+}
+.pointer::after,
+.pointer__leave::after {
+  transform: translate(17px, 17px) rotate(150deg);
+}
 
 @media screen and (min-width: 768px) {
   .AppBar {
@@ -15,5 +55,37 @@
 @media screen and (min-width: 1280px) {
   .AppBar {
     background: var(--appbar-linear-gradient), url('../../assets/img/wallpaper.jpg');
+  }
+}
+
+@keyframes enter-pointer {
+  from {
+    bottom: -50px;
+    opacity: 0;
+  }
+  25% {
+    bottom: 80px;
+    opacity: 1;
+  }
+  50% {
+    bottom: 30px;
+  }
+  75% {
+    bottom: 50px;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@keyframes leave-pointer {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 1000px;
+    opacity: 0;
+    display: none;
   }
 }
