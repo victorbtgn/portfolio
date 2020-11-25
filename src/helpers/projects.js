@@ -1,14 +1,23 @@
+import budgetCounterImage from '../assets/img/projects/budget-counter.jpg';
 import weatherAppImage from '../assets/img/projects/weather-app.jpg';
 import phonebookImage from '../assets/img/projects/phonebook.jpg';
 import movieAppImage from '../assets/img/projects/movie-app.jpg';
 import imagesImage from '../assets/img/projects/images.jpg';
+import icecreamImage from '../assets/img/projects/icecream.jpg';
 
 export default [
+    {
+        image: budgetCounterImage,
+        title: 'Budget counter',
+        description: 'This app will help you see where going your budget',
+        webSiteLink: "https://vmb-budget-counter.netlify.app",
+        codeLink: "https://github.com/victorbtgn/budget-counter",
+    },
     {
         image: weatherAppImage,
         title: 'Weather app',
         description: 'This app for tracking weather in your and other city',
-        webSiteLink: "https://kropivnyy.github.io/weather-app",
+        webSiteLink: "https://victorbtgn.github.io/weather-app",
         codeLink: "https://github.com/victorbtgn/weather-app",
     },
     {
@@ -32,11 +41,11 @@ export default [
         webSiteLink: "https://victorbtgn.github.io/goit-react-hw-03-image-finder",
         codeLink: "https://github.com/victorbtgn/goit-react-hw-03-image-finder",
     },
-    // {
-    //     image: ,
-    //     title: '',
-    //     description: '',
-    //     webSiteLink: "",
-    //     codeLink: "",
-    // },
+    {
+        image: icecreamImage,
+        title: 'ice cream',
+        description: 'This page is writed on clean html and css in gulp pack',
+        webSiteLink: "https://victorbtgn.github.io/fearless/build",
+        codeLink: "https://github.com/victorbtgn/fearless",
+    },
 ]

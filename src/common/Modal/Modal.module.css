@@ -28,6 +28,7 @@
 .Modal {
   position: relative;
   max-width: 90%;
+  min-width: 50%;
   height: 90%;
   display: flex;
   justify-content: center;
