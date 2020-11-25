@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d2092edb1d11dba2c0011f2d7c21da2",
+    "revision": "81fb1ab893d09dd4e9e3b87c49ea3a7c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d7c24f8b9111ee3b8350",
+    "revision": "6b307c580337eebde32e",
     "url": "/portfolio/static/css/2.3d72dcb8.chunk.css"
   },
   {
-    "revision": "1404ad6183198e4cffd4",
-    "url": "/portfolio/static/css/main.119c4a75.chunk.css"
+    "revision": "a9afb96b9afda9a408c4",
+    "url": "/portfolio/static/css/main.1b5b0692.chunk.css"
   },
   {
-    "revision": "d7c24f8b9111ee3b8350",
-    "url": "/portfolio/static/js/2.638ba017.chunk.js"
+    "revision": "6b307c580337eebde32e",
+    "url": "/portfolio/static/js/2.4b13ccba.chunk.js"
   },
   {
     "revision": "16645896408a141b91c4e8727c0ec2d5",
-    "url": "/portfolio/static/js/2.638ba017.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.4b13ccba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1404ad6183198e4cffd4",
-    "url": "/portfolio/static/js/main.0c177bb4.chunk.js"
+    "revision": "a9afb96b9afda9a408c4",
+    "url": "/portfolio/static/js/main.f294ab27.chunk.js"
   },
   {
     "revision": "ccdaa0478081e22f8b3f",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/banner@0,75x.28486cf7.jpg"
   },
   {
+    "revision": "36b6b941a695bf40bf2924d411f6c4f0",
+    "url": "/portfolio/static/media/budget-counter.36b6b941.jpg"
+  },
+  {
     "revision": "d0cb4499583e66ca0739aeb9ef90889e",
     "url": "/portfolio/static/media/footer.d0cb4499.jpg"
   },
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b719cbd34cbe46748ab4d1ba34075b0",
     "url": "/portfolio/static/media/github.9b719cbd.svg"
+  },
+  {
+    "revision": "d5dbf737929292b6f545abeefbf9e159",
+    "url": "/portfolio/static/media/icecream.d5dbf737.jpg"
   },
   {
     "revision": "ece625f8a6a1439ecf89b0017bba91cf",

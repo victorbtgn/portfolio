@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.119c4a75.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c177bb4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c177bb4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1b5b0692.chunk.css",
+    "main.js": "/portfolio/static/js/main.f294ab27.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f294ab27.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6fee4835.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6fee4835.js.map",
     "static/css/2.3d72dcb8.chunk.css": "/portfolio/static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.638ba017.chunk.js": "/portfolio/static/js/2.638ba017.chunk.js",
-    "static/js/2.638ba017.chunk.js.map": "/portfolio/static/js/2.638ba017.chunk.js.map",
+    "static/js/2.4b13ccba.chunk.js": "/portfolio/static/js/2.4b13ccba.chunk.js",
+    "static/js/2.4b13ccba.chunk.js.map": "/portfolio/static/js/2.4b13ccba.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9fc1de358a795e310ee712a564b9baeb.js": "/portfolio/precache-manifest.9fc1de358a795e310ee712a564b9baeb.js",
+    "precache-manifest.109de08041990d10aaa16f6e454590eb.js": "/portfolio/precache-manifest.109de08041990d10aaa16f6e454590eb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3d72dcb8.chunk.css.map": "/portfolio/static/css/2.3d72dcb8.chunk.css.map",
-    "static/css/main.119c4a75.chunk.css.map": "/portfolio/static/css/main.119c4a75.chunk.css.map",
-    "static/js/2.638ba017.chunk.js.LICENSE.txt": "/portfolio/static/js/2.638ba017.chunk.js.LICENSE.txt",
+    "static/css/main.1b5b0692.chunk.css.map": "/portfolio/static/css/main.1b5b0692.chunk.css.map",
+    "static/js/2.4b13ccba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4b13ccba.chunk.js.LICENSE.txt",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01.be478f5e.jpg",
     "static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_01@0,25x.9d180c2f.jpg",
     "static/media/Viktor Batyhin_fs_6168_Appendix_02.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Appendix_02.16233630.jpg",
@@ -21,10 +21,12 @@
     "static/media/Viktor Batyhin_fs_6168_Certificate.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Certificate.4e15f7ed.jpg",
     "static/media/Viktor Batyhin_fs_6168_Certificate@0,25x.jpg": "/portfolio/static/media/Viktor Batyhin_fs_6168_Certificate@0,25x.2bf8185d.jpg",
     "static/media/Banner.module.css": "/portfolio/static/media/banner@0,75x.28486cf7.jpg",
+    "static/media/budget-counter.jpg": "/portfolio/static/media/budget-counter.36b6b941.jpg",
     "static/media/footer.jpg": "/portfolio/static/media/footer.d0cb4499.jpg",
     "static/media/footer@0,5x.jpg": "/portfolio/static/media/footer@0,5x.166783e4.jpg",
     "static/media/footer@0,75x.jpg": "/portfolio/static/media/footer@0,75x.c4782f26.jpg",
     "static/media/github.9b719cbd.svg": "/portfolio/static/media/github.9b719cbd.svg",
+    "static/media/icecream.jpg": "/portfolio/static/media/icecream.d5dbf737.jpg",
     "static/media/images.jpg": "/portfolio/static/media/images.ece625f8.jpg",
     "static/media/linkedin.603d1c29.svg": "/portfolio/static/media/linkedin.603d1c29.svg",
     "static/media/movie-app.jpg": "/portfolio/static/media/movie-app.2456d7a8.jpg",
@@ -43,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.6fee4835.js",
     "static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.638ba017.chunk.js",
-    "static/css/main.119c4a75.chunk.css",
-    "static/js/main.0c177bb4.chunk.js"
+    "static/js/2.4b13ccba.chunk.js",
+    "static/css/main.1b5b0692.chunk.css",
+    "static/js/main.f294ab27.chunk.js"
   ]
 }
