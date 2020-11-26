@@ -19,6 +19,8 @@
   margin-bottom: 30px;
 }
 .text {
+  max-width: 1000px;
   font: var(--primary-font);
+  line-height: 1.5;
   text-align: center;
 }

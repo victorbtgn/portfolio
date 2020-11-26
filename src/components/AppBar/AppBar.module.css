@@ -5,7 +5,8 @@
   box-shadow: var(--primary-shadow);
   z-index: 100;
 }
-.pointer {
+.pointer,
+.pointer__leave {
   opacity: 0;
   animation: enter-pointer 1.5s ease 2s forwards;
   position: absolute;
@@ -16,14 +17,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.pointer {
+  animation: enter-pointer 1.5s ease 2s forwards;
+}
 .pointer__leave {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border: 2px solid var(--white);
-  border-radius: 50%;
-  left: 50%;
-  transform: translateX(-50%);
   animation: leave-pointer 0.5s linear forwards;
 }
 .pointer::before,
@@ -64,23 +61,23 @@
     opacity: 0;
   }
   25% {
-    bottom: 80px;
+    bottom: 130px;
     opacity: 1;
   }
   50% {
-    bottom: 30px;
+    bottom: 80px;
   }
   75% {
-    bottom: 50px;
+    bottom: 90px;
   }
   to {
-    bottom: 30px;
+    bottom: 80px;
     opacity: 1;
   }
 }
 @keyframes leave-pointer {
   from {
-    bottom: 30px;
+    bottom: 80px;
     opacity: 1;
   }
   to {
