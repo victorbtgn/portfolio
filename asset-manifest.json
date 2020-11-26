@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.64204f0a.chunk.css",
-    "main.js": "/portfolio/static/js/main.3ec0c7d9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3ec0c7d9.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.33f30a16.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.33f30a16.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6fee4835.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6fee4835.js.map",
     "static/css/2.3d72dcb8.chunk.css": "/portfolio/static/css/2.3d72dcb8.chunk.css",
     "static/js/2.4b13ccba.chunk.js": "/portfolio/static/js/2.4b13ccba.chunk.js",
     "static/js/2.4b13ccba.chunk.js.map": "/portfolio/static/js/2.4b13ccba.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7d0a617a8a0cd995d5100d9e28e664ac.js": "/portfolio/precache-manifest.7d0a617a8a0cd995d5100d9e28e664ac.js",
+    "precache-manifest.d7c1cadfc0753a2f0ff14225c3373313.js": "/portfolio/precache-manifest.d7c1cadfc0753a2f0ff14225c3373313.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3d72dcb8.chunk.css.map": "/portfolio/static/css/2.3d72dcb8.chunk.css.map",
     "static/css/main.64204f0a.chunk.css.map": "/portfolio/static/css/main.64204f0a.chunk.css.map",
@@ -35,8 +35,8 @@
     "static/media/projects.jpg": "/portfolio/static/media/projects.1a154902.jpg",
     "static/media/projects@0,5x.jpg": "/portfolio/static/media/projects@0,5x.c6163a66.jpg",
     "static/media/projects@0,75x.jpg": "/portfolio/static/media/projects@0,75x.720db70c.jpg",
-    "static/media/summary.jpg": "/portfolio/static/media/summary.0e78d6f6.jpg",
-    "static/media/summary.pdf": "/portfolio/static/media/summary.9a3d600d.pdf",
+    "static/media/summary.jpg": "/portfolio/static/media/summary.01264a5e.jpg",
+    "static/media/summary.pdf": "/portfolio/static/media/summary.1cf1fc66.pdf",
     "static/media/summary@0,25x.jpg": "/portfolio/static/media/summary@0,25x.e957355b.jpg",
     "static/media/telegram.66960d6b.svg": "/portfolio/static/media/telegram.66960d6b.svg",
     "static/media/AppBar.module.css": "/portfolio/static/media/wallpaper@0,75x.dc28d5a9.jpg",
@@ -47,6 +47,6 @@
     "static/css/2.3d72dcb8.chunk.css",
     "static/js/2.4b13ccba.chunk.js",
     "static/css/main.64204f0a.chunk.css",
-    "static/js/main.3ec0c7d9.chunk.js"
+    "static/js/main.33f30a16.chunk.js"
   ]
 }
